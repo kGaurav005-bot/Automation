@@ -1,0 +1,17 @@
+[
+  {
+    "testCaseId": "TC_USER_001",
+    "name": "John Doe",
+    "email": "john.doe@test.com"
+  },
+  {
+    "testCaseId": "TC_USER_002",
+    "name": "Jane Smith",
+    "email": "jane.smith@test.com"
+  },
+  {
+    "testCaseId": "TC_USER_003",
+    "name": "Michael Brown",
+    "email": "michael.brown@test.com"
+  }
+]

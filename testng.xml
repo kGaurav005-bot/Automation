@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM
+        "https://testng.org/testng-1.0.dtd">
+<!-- TestNG can execute up to three test methods simultaneously. !-->
+<suite name="AutomationSuite"
+       parallel="methods"
+       thread-count="3">
+    <listeners>
+        <listener
+                class-name=
+                        "org.practice.tests.listener.ExecutionContextListener"/>
+        <!-- this is for reporting purpose -->
+        <listener
+                class-name=
+                        "org.practice.tests.listener.ReportingListener"/>
+    </listeners>
+
+    <test name="API Tests">
+
+        <classes>
+            <class name="org.practice.tests.api.UserApiTest"/>
+        </classes>
+
+    </test>
+
+</suite>
